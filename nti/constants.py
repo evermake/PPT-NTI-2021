@@ -1,0 +1,15 @@
+BLOCK_CUBE = 1
+BLOCK_ARCH = 2
+BLOCK_QUARTER = 3
+BLOCK_CYLINDER = 4
+BLOCK_PYRAMID = 5
+BLOCK_CONE = 6
+
+BLOCK_NAMES = {
+    BLOCK_CUBE: 'Cube',
+    BLOCK_ARCH: 'Arch',
+    BLOCK_QUARTER: 'Quarter',
+    BLOCK_CYLINDER: 'Cylinder',
+    BLOCK_PYRAMID: 'Pyramid',
+    BLOCK_CONE: 'Cone'
+}
