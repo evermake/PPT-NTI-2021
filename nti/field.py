@@ -1,10 +1,3 @@
-"""
-* Make "stupid" moves
-
-1) Clean area for the first floor. All cells and near cells (except cells that higher)
-must be clear. Move all blocks preferably higher.
-2)
-"""
 from .constants import *
 
 
@@ -246,6 +239,3 @@ class Field:
                 cell = cell_x, cell_y
                 if not self.is_cell_occupied(cell) and cell not in cells_to_exclude:
                     return cell
-
-    def get_height_for_move(self, x_from, x_to, y_from, y_to, block_id=BLOCK_CUBE):
-        pass
